@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8155EE0B254DF4C30044048F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EE0A254DF4C30044048F /* AppDelegate.swift */; };
+		8155EE0D254DF4C30044048F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EE0C254DF4C30044048F /* SceneDelegate.swift */; };
+		8155EE0F254DF4C30044048F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EE0E254DF4C30044048F /* ViewController.swift */; };
+		8155EE12254DF4C30044048F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8155EE10254DF4C30044048F /* Main.storyboard */; };
+		8155EE14254DF4CD0044048F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8155EE13254DF4CD0044048F /* Assets.xcassets */; };
+		8155EE17254DF4CD0044048F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8155EE15254DF4CD0044048F /* LaunchScreen.storyboard */; };
+		8155EE22254DF4CD0044048F /* NarcosWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EE21254DF4CD0044048F /* NarcosWikiTests.swift */; };
+		8155EE2D254DF4CD0044048F /* NarcosWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EE2C254DF4CD0044048F /* NarcosWikiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8155EE1E254DF4CD0044048F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8155EDFF254DF4C30044048F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8155EE06254DF4C30044048F;
+			remoteInfo = NarcosWiki;
+		};
+		8155EE29254DF4CD0044048F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8155EDFF254DF4C30044048F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8155EE06254DF4C30044048F;
+			remoteInfo = NarcosWiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8155EE07254DF4C30044048F /* NarcosWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NarcosWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8155EE0A254DF4C30044048F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8155EE0C254DF4C30044048F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8155EE0E254DF4C30044048F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8155EE11254DF4C30044048F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8155EE13254DF4CD0044048F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8155EE16254DF4CD0044048F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8155EE18254DF4CD0044048F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8155EE1D254DF4CD0044048F /* NarcosWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NarcosWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8155EE21254DF4CD0044048F /* NarcosWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarcosWikiTests.swift; sourceTree = "<group>"; };
+		8155EE23254DF4CD0044048F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8155EE28254DF4CD0044048F /* NarcosWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NarcosWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8155EE2C254DF4CD0044048F /* NarcosWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarcosWikiUITests.swift; sourceTree = "<group>"; };
+		8155EE2E254DF4CD0044048F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8155EE04254DF4C30044048F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8155EE1A254DF4CD0044048F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8155EE25254DF4CD0044048F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8155EDFE254DF4C30044048F = {
+			isa = PBXGroup;
+			children = (
+				8155EE09254DF4C30044048F /* NarcosWiki */,
+				8155EE20254DF4CD0044048F /* NarcosWikiTests */,
+				8155EE2B254DF4CD0044048F /* NarcosWikiUITests */,
+				8155EE08254DF4C30044048F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8155EE08254DF4C30044048F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8155EE07254DF4C30044048F /* NarcosWiki.app */,
+				8155EE1D254DF4CD0044048F /* NarcosWikiTests.xctest */,
+				8155EE28254DF4CD0044048F /* NarcosWikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8155EE09254DF4C30044048F /* NarcosWiki */ = {
+			isa = PBXGroup;
+			children = (
+				8155EE0A254DF4C30044048F /* AppDelegate.swift */,
+				8155EE0C254DF4C30044048F /* SceneDelegate.swift */,
+				8155EE0E254DF4C30044048F /* ViewController.swift */,
+				8155EE10254DF4C30044048F /* Main.storyboard */,
+				8155EE13254DF4CD0044048F /* Assets.xcassets */,
+				8155EE15254DF4CD0044048F /* LaunchScreen.storyboard */,
+				8155EE18254DF4CD0044048F /* Info.plist */,
+			);
+			path = NarcosWiki;
+			sourceTree = "<group>";
+		};
+		8155EE20254DF4CD0044048F /* NarcosWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				8155EE21254DF4CD0044048F /* NarcosWikiTests.swift */,
+				8155EE23254DF4CD0044048F /* Info.plist */,
+			);
+			path = NarcosWikiTests;
+			sourceTree = "<group>";
+		};
+		8155EE2B254DF4CD0044048F /* NarcosWikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8155EE2C254DF4CD0044048F /* NarcosWikiUITests.swift */,
+				8155EE2E254DF4CD0044048F /* Info.plist */,
+			);
+			path = NarcosWikiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8155EE06254DF4C30044048F /* NarcosWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8155EE31254DF4CD0044048F /* Build configuration list for PBXNativeTarget "NarcosWiki" */;
+			buildPhases = (
+				8155EE03254DF4C30044048F /* Sources */,
+				8155EE04254DF4C30044048F /* Frameworks */,
+				8155EE05254DF4C30044048F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NarcosWiki;
+			productName = NarcosWiki;
+			productReference = 8155EE07254DF4C30044048F /* NarcosWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8155EE1C254DF4CD0044048F /* NarcosWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8155EE34254DF4CD0044048F /* Build configuration list for PBXNativeTarget "NarcosWikiTests" */;
+			buildPhases = (
+				8155EE19254DF4CD0044048F /* Sources */,
+				8155EE1A254DF4CD0044048F /* Frameworks */,
+				8155EE1B254DF4CD0044048F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8155EE1F254DF4CD0044048F /* PBXTargetDependency */,
+			);
+			name = NarcosWikiTests;
+			productName = NarcosWikiTests;
+			productReference = 8155EE1D254DF4CD0044048F /* NarcosWikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8155EE27254DF4CD0044048F /* NarcosWikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8155EE37254DF4CD0044048F /* Build configuration list for PBXNativeTarget "NarcosWikiUITests" */;
+			buildPhases = (
+				8155EE24254DF4CD0044048F /* Sources */,
+				8155EE25254DF4CD0044048F /* Frameworks */,
+				8155EE26254DF4CD0044048F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8155EE2A254DF4CD0044048F /* PBXTargetDependency */,
+			);
+			name = NarcosWikiUITests;
+			productName = NarcosWikiUITests;
+			productReference = 8155EE28254DF4CD0044048F /* NarcosWikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8155EDFF254DF4C30044048F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					8155EE06254DF4C30044048F = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8155EE1C254DF4CD0044048F = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8155EE06254DF4C30044048F;
+					};
+					8155EE27254DF4CD0044048F = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8155EE06254DF4C30044048F;
+					};
+				};
+			};
+			buildConfigurationList = 8155EE02254DF4C30044048F /* Build configuration list for PBXProject "NarcosWiki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8155EDFE254DF4C30044048F;
+			productRefGroup = 8155EE08254DF4C30044048F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8155EE06254DF4C30044048F /* NarcosWiki */,
+				8155EE1C254DF4CD0044048F /* NarcosWikiTests */,
+				8155EE27254DF4CD0044048F /* NarcosWikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8155EE05254DF4C30044048F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8155EE17254DF4CD0044048F /* LaunchScreen.storyboard in Resources */,
+				8155EE14254DF4CD0044048F /* Assets.xcassets in Resources */,
+				8155EE12254DF4C30044048F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8155EE1B254DF4CD0044048F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8155EE26254DF4CD0044048F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8155EE03254DF4C30044048F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8155EE0F254DF4C30044048F /* ViewController.swift in Sources */,
+				8155EE0B254DF4C30044048F /* AppDelegate.swift in Sources */,
+				8155EE0D254DF4C30044048F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8155EE19254DF4CD0044048F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8155EE22254DF4CD0044048F /* NarcosWikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8155EE24254DF4CD0044048F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8155EE2D254DF4CD0044048F /* NarcosWikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8155EE1F254DF4CD0044048F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8155EE06254DF4C30044048F /* NarcosWiki */;
+			targetProxy = 8155EE1E254DF4CD0044048F /* PBXContainerItemProxy */;
+		};
+		8155EE2A254DF4CD0044048F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8155EE06254DF4C30044048F /* NarcosWiki */;
+			targetProxy = 8155EE29254DF4CD0044048F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8155EE10254DF4C30044048F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8155EE11254DF4C30044048F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8155EE15254DF4CD0044048F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8155EE16254DF4CD0044048F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8155EE2F254DF4CD0044048F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8155EE30254DF4CD0044048F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8155EE32254DF4CD0044048F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarcosWiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = viniciusmesquita.NarcosWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8155EE33254DF4CD0044048F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarcosWiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = viniciusmesquita.NarcosWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8155EE35254DF4CD0044048F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarcosWikiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = viniciusmesquita.NarcosWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NarcosWiki.app/NarcosWiki";
+			};
+			name = Debug;
+		};
+		8155EE36254DF4CD0044048F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarcosWikiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = viniciusmesquita.NarcosWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NarcosWiki.app/NarcosWiki";
+			};
+			name = Release;
+		};
+		8155EE38254DF4CD0044048F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarcosWikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = viniciusmesquita.NarcosWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NarcosWiki;
+			};
+			name = Debug;
+		};
+		8155EE39254DF4CD0044048F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarcosWikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = viniciusmesquita.NarcosWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NarcosWiki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8155EE02254DF4C30044048F /* Build configuration list for PBXProject "NarcosWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8155EE2F254DF4CD0044048F /* Debug */,
+				8155EE30254DF4CD0044048F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8155EE31254DF4CD0044048F /* Build configuration list for PBXNativeTarget "NarcosWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8155EE32254DF4CD0044048F /* Debug */,
+				8155EE33254DF4CD0044048F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8155EE34254DF4CD0044048F /* Build configuration list for PBXNativeTarget "NarcosWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8155EE35254DF4CD0044048F /* Debug */,
+				8155EE36254DF4CD0044048F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8155EE37254DF4CD0044048F /* Build configuration list for PBXNativeTarget "NarcosWikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8155EE38254DF4CD0044048F /* Debug */,
+				8155EE39254DF4CD0044048F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8155EDFF254DF4C30044048F /* Project object */;
+}
