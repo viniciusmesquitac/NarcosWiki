@@ -33,7 +33,7 @@ class TabBarCoordinator: Coordinator {
         tabBarController.modalPresentationStyle = .fullScreen
        
         // 4. Apresentar a controller
-        navigationController.present(tabBarController, animated: true, completion: nil)
+        navigationController.present(tabBarController, animated: false, completion: nil)
         
         // 5. Referencias as coordendadas.
         coordinate(to: coordinator1)

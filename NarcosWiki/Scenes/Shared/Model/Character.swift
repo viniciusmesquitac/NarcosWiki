@@ -7,16 +7,16 @@
 
 import Foundation
 
-struct Character {
+struct Character: Codable {
     let fullName: String
     let nicknames: [String]
     let status: String
     let birth: String
     let birthLocation: String
-    let nationatily: String
+    let nationality: String
     let description: String
     let imageUrl: ImageUrl
-    let fictional: Bool
-    let appearences: Appearences
+    let functional: Bool
+    let appearances: Appearences
     let career: Career
 }

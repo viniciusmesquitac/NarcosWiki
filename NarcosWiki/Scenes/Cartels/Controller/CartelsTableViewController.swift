@@ -10,11 +10,14 @@ import UIKit
 class CartelsTableViewController: UITableViewController {
 
     let viewModel = CartelsViewModel()
+    var coordinator: CartelsCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         _ = viewModel.getAllCartels()
+        
+        coordinator = CartelsCoordinator(navigationController: navigationController)
         
         viewModel.handleUpdate = {
             self.tableView.reloadData()
@@ -35,7 +38,12 @@ class CartelsTableViewController: UITableViewController {
         }
         
         return cell
-        
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let helper = JsonHelper<Character>(fileName: "narcos_sinaloa")
+        let characters = helper.getAll()
+        coordinator?.showCharacters(characters: characters)
     }
 
 }

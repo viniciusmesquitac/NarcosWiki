@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Appearence {
+struct Appearence: Codable {
     let episode: String
     let link: String
 }
 
-struct Appearences {
+struct Appearences: Codable {
     let first: Appearence
     let last: Appearence
     let episodeCount: Int

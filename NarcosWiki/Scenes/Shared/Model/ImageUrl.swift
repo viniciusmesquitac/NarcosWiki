@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ImageUrl {
+struct ImageUrl: Codable {
     let real: String
     let serie: String
 }

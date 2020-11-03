@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Career {
+struct Career: Codable {
     let occupation: String
     let affiliation: [String]
     let rank: String
-    let year: String
+    let years: String
 }

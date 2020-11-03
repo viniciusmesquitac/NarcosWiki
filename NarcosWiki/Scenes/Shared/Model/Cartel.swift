@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Cartel {
+struct Cartel: Codable {
     let name: String?
     let characters: [Character]?
 }
