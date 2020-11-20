@@ -34,6 +34,8 @@
 		8155EED3254E177B0044048F /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EED2254E177B0044048F /* JsonHelper.swift */; };
 		8155EEDB2550699B0044048F /* narcos_sinaloa.json in Resources */ = {isa = PBXBuildFile; fileRef = 8155EEDA2550699B0044048F /* narcos_sinaloa.json */; };
 		8155EEE1255071C80044048F /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EEE0255071C80044048F /* CharacterViewController.swift */; };
+		8155EEEA2551FE250044048F /* ListCharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EEE92551FE250044048F /* ListCharactersViewModel.swift */; };
+		8155EEF02551FE830044048F /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EEEF2551FE830044048F /* CharactersRepository.swift */; };
 		8D560F32FB172C32B79C27DB /* Pods_NarcosWikiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2B06CB4FA87BE02F597093 /* Pods_NarcosWikiTests.framework */; };
 		DDFE3AFBEB43C87E1CE28349 /* Pods_NarcosWiki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA38697CEAF44E14EF399652 /* Pods_NarcosWiki.framework */; };
 /* End PBXBuildFile section */
@@ -92,6 +94,8 @@
 		8155EED2254E177B0044048F /* JsonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonHelper.swift; sourceTree = "<group>"; };
 		8155EEDA2550699B0044048F /* narcos_sinaloa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = narcos_sinaloa.json; path = ../../../../../../../Downloads/narcos_sinaloa.json; sourceTree = "<group>"; };
 		8155EEE0255071C80044048F /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		8155EEE92551FE250044048F /* ListCharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCharactersViewModel.swift; sourceTree = "<group>"; };
+		8155EEEF2551FE830044048F /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
 		972182FAFA5B42CBD782EEC3 /* Pods_NarcosWiki_NarcosWikiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NarcosWiki_NarcosWikiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA38697CEAF44E14EF399652 /* Pods_NarcosWiki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NarcosWiki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDCF7A91F4ABA70A28BD34A /* Pods-NarcosWiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NarcosWiki.debug.xcconfig"; path = "Target Support Files/Pods-NarcosWiki/Pods-NarcosWiki.debug.xcconfig"; sourceTree = "<group>"; };
@@ -243,6 +247,8 @@
 		8155EE74254DFA1A0044048F /* Characters */ = {
 			isa = PBXGroup;
 			children = (
+				8155EEEE2551FE750044048F /* Repository */,
+				8155EEE82551FE0E0044048F /* ViewModel */,
 				8155EEDF255071AF0044048F /* Controller */,
 			);
 			path = Characters;
@@ -330,6 +336,22 @@
 				8155EEE0255071C80044048F /* CharacterViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8155EEE82551FE0E0044048F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8155EEE92551FE250044048F /* ListCharactersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8155EEEE2551FE750044048F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8155EEEF2551FE830044048F /* CharactersRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		F271DF28071A6570FB2987E6 /* Frameworks */ = {
@@ -544,6 +566,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8155EEEA2551FE250044048F /* ListCharactersViewModel.swift in Sources */,
 				8155EEA1254E09570044048F /* Cartels.swift in Sources */,
 				8155EEB9254E0A1F0044048F /* Career.swift in Sources */,
 				8155EE54254DF8200044048F /* AppCoordinator.swift in Sources */,
@@ -552,6 +575,7 @@
 				8155EEE1255071C80044048F /* CharacterViewController.swift in Sources */,
 				8155EE61254DF8EE0044048F /* TabBarCoordinator.swift in Sources */,
 				8155EE66254DF9790044048F /* CartelsCoordinator.swift in Sources */,
+				8155EEF02551FE830044048F /* CharactersRepository.swift in Sources */,
 				8155EE5C254DF8420044048F /* Coordinator.swift in Sources */,
 				8155EE43254DF6880044048F /* TabBarController.swift in Sources */,
 				8155EED3254E177B0044048F /* JsonHelper.swift in Sources */,

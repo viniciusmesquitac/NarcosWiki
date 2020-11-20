@@ -8,7 +8,7 @@
 import UIKit
 
 class CartelsTableViewController: UITableViewController {
-
+    
     let viewModel = CartelsViewModel()
     var coordinator: CartelsCoordinator?
     
@@ -40,10 +40,11 @@ class CartelsTableViewController: UITableViewController {
         return cell
     }
     
+    // filha -> controller pai
+    
+    // controller principal -> navigation -> ir para outra Controller
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let helper = JsonHelper<Character>(fileName: "narcos_sinaloa")
-        let characters = helper.getAll()
-        coordinator?.showCharacters(characters: characters)
+        coordinator?.showCharacters(characters: viewModel.getListOfCharacters(in: Cartels.allCases[indexPath.item]))
     }
 
 }

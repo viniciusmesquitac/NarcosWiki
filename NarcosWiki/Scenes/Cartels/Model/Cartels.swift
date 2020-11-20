@@ -7,6 +7,9 @@
 
 import Foundation
 
-struct Cartels {
-    
+enum Cartels: CaseIterable {
+    case guadalajara
+    case juarez
+    case gulf
+    case tijuana
 }

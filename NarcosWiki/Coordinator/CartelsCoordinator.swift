@@ -22,7 +22,7 @@ final class CartelsCoordinator: Coordinator {
     }
     
     
-    func showCharacters(characters: [Character]?) {
+    func showCharacters(characters: ListCharactersViewModel) {
         let characterViewController = CharacterViewController()
         characterViewController.viewModel = characters
         navigationController.pushViewController(characterViewController, animated: true)
