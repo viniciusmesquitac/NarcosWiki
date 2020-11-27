@@ -11,12 +11,20 @@ final class CartelsCoordinator: Coordinator {
     
     var navigationController: UINavigationController!
     
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
+    init(navigationController: UINavigationController?) {
+        guard let navigation = navigationController else { fatalError() }
+        self.navigationController = navigation
     }
     
     func start() {
         let viewController = CartelsTableViewController()
         navigationController.pushViewController(viewController, animated: false)
+    }
+    
+    
+    func showCharacters(characters: ListCharactersViewModel) {
+        let characterViewController = CharacterViewController()
+        characterViewController.viewModel = characters
+        navigationController.pushViewController(characterViewController, animated: true)
     }
 }

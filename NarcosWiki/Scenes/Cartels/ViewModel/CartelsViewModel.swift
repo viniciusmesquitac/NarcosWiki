@@ -37,4 +37,18 @@ final class CartelsViewModel: ViewModel {
         return cartels
     }
     
+    public func getListOfCharacters(in cartel: Cartels) -> ListCharactersViewModel {
+        let listChacterViewModel = ListCharactersViewModel()
+        
+        switch cartel {
+        case .guadalajara:
+            let helper = JsonHelper<Character>(fileName: "narcos_sinaloa")
+            let characters = helper.getAll()
+            listChacterViewModel.characters = characters!
+            return listChacterViewModel
+        default:
+            return listChacterViewModel
+        }
+    }
+    
 }

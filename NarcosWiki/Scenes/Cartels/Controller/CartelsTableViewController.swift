@@ -8,13 +8,16 @@
 import UIKit
 
 class CartelsTableViewController: UITableViewController {
-
+    
     let viewModel = CartelsViewModel()
+    var coordinator: CartelsCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         _ = viewModel.getAllCartels()
+        
+        coordinator = CartelsCoordinator(navigationController: navigationController)
         
         viewModel.handleUpdate = {
             self.tableView.reloadData()
@@ -35,7 +38,13 @@ class CartelsTableViewController: UITableViewController {
         }
         
         return cell
-        
+    }
+    
+    // filha -> controller pai
+    
+    // controller principal -> navigation -> ir para outra Controller
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        coordinator?.showCharacters(characters: viewModel.getListOfCharacters(in: Cartels.allCases[indexPath.item]))
     }
 
 }
