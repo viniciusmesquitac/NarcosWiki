@@ -44,7 +44,7 @@ class CartelsTableViewController: UITableViewController {
     
     // controller principal -> navigation -> ir para outra Controller
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        coordinator?.showCharacters(characters: viewModel.getListOfCharacters(in: Cartels.allCases[indexPath.item]))
+        coordinator?.showCharacters(characters: viewModel.getListOfCharacters(in: Cartels.allCases[indexPath.row]))
     }
 
 }

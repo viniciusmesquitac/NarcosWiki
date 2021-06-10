@@ -8,6 +8,7 @@
 import Foundation
 
 enum Cartels: CaseIterable {
+    case sinaloa
     case guadalajara
     case juarez
     case gulf

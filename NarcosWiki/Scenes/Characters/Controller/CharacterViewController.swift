@@ -8,12 +8,12 @@
 import UIKit
 
 class CharacterViewController: UITableViewController {
-    
+
     var viewModel: ListCharactersViewModel?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.tableView.register(CharactersTableViewCell.self, forCellReuseIdentifier: CharactersTableViewCell.identifier)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -21,12 +21,10 @@ class CharacterViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // let cell = tableView.dequeueReusableCell(withIdentifier: "dequeue_here")
-        let cell = UITableViewCell()
-        
-        if let cellVM = viewModel?.cellViewModel(at: indexPath.row) {
-            // should be: cell.configure
-            cell.textLabel?.text = cellVM.fullName
+        guard let cell = tableView.dequeueReusableCell(
+                withIdentifier: CharactersTableViewCell.identifier) as? CharactersTableViewCell else { return UITableViewCell() }
+        if let character = viewModel?.cellViewModel(at: indexPath.row) {
+            cell.configure(character: character)
         }
         return cell
     }

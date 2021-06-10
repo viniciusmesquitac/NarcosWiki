@@ -41,7 +41,7 @@ final class CartelsViewModel: ViewModel {
         let listChacterViewModel = ListCharactersViewModel()
         
         switch cartel {
-        case .guadalajara:
+        case .sinaloa:
             let helper = JsonHelper<Character>(fileName: "narcos_sinaloa")
             let characters = helper.getAll()
             listChacterViewModel.characters = characters!
