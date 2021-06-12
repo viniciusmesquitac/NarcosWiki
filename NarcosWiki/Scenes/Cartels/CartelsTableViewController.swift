@@ -14,7 +14,10 @@ class CartelsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Cartels"
+        self.tableView.register(CartelsTableViewCell.self,
+                                forCellReuseIdentifier: CartelsTableViewCell.identifier)
+        self.navigationController?.navigationBar.prefersLargeTitles = true
         _ = viewModel.getAllCartels()
         
         coordinator = CartelsCoordinator(navigationController: navigationController)
@@ -29,14 +32,13 @@ class CartelsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // let cell = tableView.dequeueReusableCell(withIdentifier: "dequeue_here")
-        let cell = UITableViewCell()
-        
-        if let cellVM = viewModel.cellViewModel(at: indexPath.row) {
-            // cell.configure
-            cell.textLabel?.text = cellVM.name
+        guard let cell = tableView.dequeueReusableCell(
+                withIdentifier: CartelsTableViewCell.identifier) as? CartelsTableViewCell else {
+            return UITableViewCell()
         }
-        
+        if let cartel = viewModel.cellViewModel(at: indexPath.row) {
+            cell.configure(cartel: cartel)
+        }
         return cell
     }
     

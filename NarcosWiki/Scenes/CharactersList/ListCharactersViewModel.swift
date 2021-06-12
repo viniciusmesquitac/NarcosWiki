@@ -13,6 +13,8 @@ final class ListCharactersViewModel: ViewModel {
     
     typealias Repository = CharactersRepository
     
+    var nameOfCartel: String?
+    
     var characters: [Character] = [] {
         didSet {
             DispatchQueue.main.async { self.handleUpdate?() }

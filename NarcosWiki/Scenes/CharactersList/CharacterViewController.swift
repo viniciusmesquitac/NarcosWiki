@@ -13,6 +13,8 @@ class CharacterViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = viewModel?.nameOfCartel ?? "Characters"
+        self.tableView.separatorStyle = .none
         self.tableView.register(CharactersTableViewCell.self, forCellReuseIdentifier: CharactersTableViewCell.identifier)
     }
     

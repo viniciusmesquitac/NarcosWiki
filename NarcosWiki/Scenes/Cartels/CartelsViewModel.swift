@@ -45,6 +45,7 @@ final class CartelsViewModel: ViewModel {
             let helper = JsonHelper<Character>(fileName: "narcos_sinaloa")
             let characters = helper.getAll()
             listChacterViewModel.characters = characters!
+            listChacterViewModel.nameOfCartel = "Sinaloa"
             return listChacterViewModel
         default:
             return listChacterViewModel
