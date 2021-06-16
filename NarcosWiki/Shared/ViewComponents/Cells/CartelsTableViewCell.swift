@@ -30,6 +30,7 @@ class CartelsTableViewCell: UITableViewCell {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.accessoryType = .disclosureIndicator
         buildViewHierarchy()
         setupConstraints()
     }
@@ -46,8 +47,7 @@ class CartelsTableViewCell: UITableViewCell {
     func setupConstraints() {
         NSLayoutConstraint.activate([
             cartelImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
-            cartelImageView.topAnchor.constraint(equalTo: topAnchor, constant: 16),
-            cartelImageView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -16),
+            cartelImageView.centerYAnchor.constraint(equalTo: centerYAnchor),
             cartelImageView.heightAnchor.constraint(equalToConstant: 50),
             cartelImageView.widthAnchor.constraint(equalToConstant: 50)
         ])
@@ -92,15 +92,15 @@ extension UIColor {
     static func colorByCartels(cartel: Cartels) -> [CGColor] {
         switch cartel {
         case .guadalajara:
-            return [UIColor.blue.cgColor, UIColor.red.cgColor]
+            return [UIColor.blue.withAlphaComponent(0.3).cgColor, UIColor.red.cgColor]
         case .sinaloa:
-            return [UIColor.red.cgColor, UIColor.darkGray.cgColor]
+            return [UIColor.red.withAlphaComponent(0.3).cgColor, UIColor.darkGray.cgColor]
         case .juarez:
-            return [UIColor.magenta.cgColor, UIColor.orange.cgColor]
+            return [UIColor.magenta.withAlphaComponent(0.3).cgColor, UIColor.orange.cgColor]
         case .gulf:
-            return [UIColor.black.cgColor, UIColor.lightGray.cgColor]
+            return [UIColor.black.withAlphaComponent(0.3).cgColor, UIColor.lightGray.cgColor]
         case .tijuana:
-            return [UIColor.cyan.cgColor, UIColor.brown.cgColor]
+            return [UIColor.cyan.withAlphaComponent(0.3).cgColor, UIColor.brown.cgColor]
         }
     }
 }

@@ -21,8 +21,6 @@ extension UIImageView {
                 self?.image = image
                 UIView.animate(withDuration: 0.3, animations: {
                     self?.alpha = 1
-                }, completion: { finished in
-                    print("animation finished")
                 })
                 completion()
             }

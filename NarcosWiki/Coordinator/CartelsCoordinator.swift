@@ -7,7 +7,12 @@
 
 import UIKit
 
-final class CartelsCoordinator: Coordinator {
+protocol CartelsCoordinatorProtocol: Coordinator {
+    func showCharacters(characters: ListCharactersViewModel)
+    func showCharacterDetails()
+}
+
+class CartelsCoordinator: CartelsCoordinatorProtocol {
 
     var navigationController: UINavigationController!
 
@@ -17,13 +22,20 @@ final class CartelsCoordinator: Coordinator {
     }
 
     func start() {
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationItem.largeTitleDisplayMode = .never
         let viewController = CartelsTableViewController(style: .grouped)
-        navigationController.pushViewController(viewController, animated: false)
+        navigationController?.pushViewController(viewController, animated: false)
     }
 
     func showCharacters(characters: ListCharactersViewModel) {
-        let characterViewController = CharacterViewController(style: .grouped)
-        characterViewController.viewModel = characters
-        navigationController.pushViewController(characterViewController, animated: true)
+        let characterViewController = CharacterViewController(viewModel: characters, coordinator: self)
+        navigationController?.pushViewController(characterViewController, animated: true)
+    }
+    
+    func showCharacterDetails() {
+        let detailsVC = CharacterDetailsViewController(coordinator: self)
+        let nav = UINavigationController(rootViewController: detailsVC)
+        navigationController?.present(nav, animated: true)
     }
 }
