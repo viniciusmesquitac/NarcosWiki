@@ -12,10 +12,11 @@ class CartelsRepository: Repository {
 
     func getAll() -> [Cartel] {
         let cartels: [Cartel] = [
-            Cartel(name: "Guadalajara", characters: nil),
+            Cartel(name: "Sinaloa", characters: nil),
             Cartel(name: "Juarez", characters: nil),
             Cartel(name: "Gulf", characters: nil),
-            Cartel(name: "Tijuana", characters: nil)
+            Cartel(name: "Tijuana", characters: nil),
+            Cartel(name: "Guadalajara", characters: nil)
         ]
         
         return cartels

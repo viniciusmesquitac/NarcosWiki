@@ -21,15 +21,15 @@ class TabBarCoordinator: Coordinator {
         
         // 2. Adicionar as tab`s
         let nav1 = UINavigationController()
-        nav1.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        nav1.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 0)
         let coordinator1 = CartelsCoordinator(navigationController: nav1)
         
         let nav2 = UINavigationController()
-        nav2.tabBarItem = UITabBarItem(tabBarSystemItem: .more, tag: 1)
-        let coordinator2 = CartelsCoordinator(navigationController: nav2)
+        nav2.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        let coordinator2 = FavoriteCoordinator(navigationController: nav2)
         
         // 3. Inserir as tabs na controller
-        tabBarController.viewControllers = [nav2, nav1]
+        tabBarController.viewControllers = [nav1, nav2]
         tabBarController.modalPresentationStyle = .fullScreen
        
         // 4. Apresentar a controller

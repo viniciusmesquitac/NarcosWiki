@@ -32,10 +32,21 @@
 		8155EEB9254E0A1F0044048F /* Career.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EEB8254E0A1F0044048F /* Career.swift */; };
 		8155EECA254E0DD70044048F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EEC9254E0DD70044048F /* ViewModel.swift */; };
 		8155EED3254E177B0044048F /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EED2254E177B0044048F /* JsonHelper.swift */; };
-		8155EEDB2550699B0044048F /* narcos_sinaloa.json in Resources */ = {isa = PBXBuildFile; fileRef = 8155EEDA2550699B0044048F /* narcos_sinaloa.json */; };
 		8155EEE1255071C80044048F /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EEE0255071C80044048F /* CharacterViewController.swift */; };
 		8155EEEA2551FE250044048F /* ListCharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EEE92551FE250044048F /* ListCharactersViewModel.swift */; };
 		8155EEF02551FE830044048F /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155EEEF2551FE830044048F /* CharactersRepository.swift */; };
+		817297A626756BC300C16339 /* CartelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817297A526756BC300C16339 /* CartelsTableViewCell.swift */; };
+		817297A82676826600C16339 /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817297A72676826500C16339 /* CharacterDetailsView.swift */; };
+		817297AA2676845600C16339 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817297A92676845600C16339 /* ViewCode.swift */; };
+		817297AC267694BD00C16339 /* UIView+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817297AB267694BD00C16339 /* UIView+Size.swift */; };
+		817297AE267A987300C16339 /* FavoritesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817297AD267A987300C16339 /* FavoritesCoordinator.swift */; };
+		817297B0267A98CC00C16339 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817297AF267A98CC00C16339 /* FavoritesViewController.swift */; };
+		817297B4267AA44600C16339 /* UIAolication+statusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817297B3267AA44600C16339 /* UIAolication+statusBar.swift */; };
+		81D1BF34267237CC0079462A /* narcos_sinaloa.json in Resources */ = {isa = PBXBuildFile; fileRef = 81D1BF33267237CC0079462A /* narcos_sinaloa.json */; };
+		81D1BF39267239670079462A /* CharactersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D1BF38267239670079462A /* CharactersTableViewCell.swift */; };
+		81D1BF3C26723B430079462A /* UImageView+Downloaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D1BF3B26723B430079462A /* UImageView+Downloaded.swift */; };
+		81D1BF852672B0530079462A /* UImage+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D1BF842672B0530079462A /* UImage+Assets.swift */; };
+		81D1BF892672B6190079462A /* CharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D1BF882672B6190079462A /* CharacterDetailsViewController.swift */; };
 		8D560F32FB172C32B79C27DB /* Pods_NarcosWikiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2B06CB4FA87BE02F597093 /* Pods_NarcosWikiTests.framework */; };
 		DDFE3AFBEB43C87E1CE28349 /* Pods_NarcosWiki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA38697CEAF44E14EF399652 /* Pods_NarcosWiki.framework */; };
 /* End PBXBuildFile section */
@@ -92,10 +103,21 @@
 		8155EEB8254E0A1F0044048F /* Career.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Career.swift; sourceTree = "<group>"; };
 		8155EEC9254E0DD70044048F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		8155EED2254E177B0044048F /* JsonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonHelper.swift; sourceTree = "<group>"; };
-		8155EEDA2550699B0044048F /* narcos_sinaloa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = narcos_sinaloa.json; path = ../../../../../../../Downloads/narcos_sinaloa.json; sourceTree = "<group>"; };
 		8155EEE0255071C80044048F /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		8155EEE92551FE250044048F /* ListCharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCharactersViewModel.swift; sourceTree = "<group>"; };
 		8155EEEF2551FE830044048F /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
+		817297A526756BC300C16339 /* CartelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartelsTableViewCell.swift; sourceTree = "<group>"; };
+		817297A72676826500C16339 /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
+		817297A92676845600C16339 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		817297AB267694BD00C16339 /* UIView+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Size.swift"; sourceTree = "<group>"; };
+		817297AD267A987300C16339 /* FavoritesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCoordinator.swift; sourceTree = "<group>"; };
+		817297AF267A98CC00C16339 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		817297B3267AA44600C16339 /* UIAolication+statusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAolication+statusBar.swift"; sourceTree = "<group>"; };
+		81D1BF33267237CC0079462A /* narcos_sinaloa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = narcos_sinaloa.json; path = ../../../../../../../Downloads/narcos_sinaloa.json; sourceTree = "<group>"; };
+		81D1BF38267239670079462A /* CharactersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTableViewCell.swift; sourceTree = "<group>"; };
+		81D1BF3B26723B430079462A /* UImageView+Downloaded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UImageView+Downloaded.swift"; sourceTree = "<group>"; };
+		81D1BF842672B0530079462A /* UImage+Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UImage+Assets.swift"; sourceTree = "<group>"; };
+		81D1BF882672B6190079462A /* CharacterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewController.swift; sourceTree = "<group>"; };
 		972182FAFA5B42CBD782EEC3 /* Pods_NarcosWiki_NarcosWikiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NarcosWiki_NarcosWikiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA38697CEAF44E14EF399652 /* Pods_NarcosWiki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NarcosWiki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDCF7A91F4ABA70A28BD34A /* Pods-NarcosWiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NarcosWiki.debug.xcconfig"; path = "Target Support Files/Pods-NarcosWiki/Pods-NarcosWiki.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,11 +191,11 @@
 		8155EE09254DF4C30044048F /* NarcosWiki */ = {
 			isa = PBXGroup;
 			children = (
+				8155EE41254DF65C0044048F /* Shared */,
 				8155EE52254DF80D0044048F /* Coordinator */,
 				8155EE40254DF6550044048F /* Scenes */,
 				8155EE0A254DF4C30044048F /* AppDelegate.swift */,
 				8155EE0C254DF4C30044048F /* SceneDelegate.swift */,
-				8155EE13254DF4CD0044048F /* Assets.xcassets */,
 				8155EE15254DF4CD0044048F /* LaunchScreen.storyboard */,
 				8155EE18254DF4CD0044048F /* Info.plist */,
 			);
@@ -201,9 +223,10 @@
 		8155EE40254DF6550044048F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				8155EE74254DFA1A0044048F /* Characters */,
+				81D1BF872672B5C70079462A /* Favorites */,
+				81D1BF862672B5B80079462A /* CharacterDetails */,
+				8155EE74254DFA1A0044048F /* CharactersList */,
 				8155EE73254DFA0E0044048F /* Cartels */,
-				8155EE41254DF65C0044048F /* Shared */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -211,8 +234,11 @@
 		8155EE41254DF65C0044048F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				817297A326756B9600C16339 /* ViewComponents */,
+				817297A226756B2000C16339 /* Assets */,
+				81D1BF3A26723B220079462A /* Extension */,
 				8155EED1254E17670044048F /* Helpers */,
-				8155EEC8254E0DC60044048F /* ViewModel */,
+				8155EEC8254E0DC60044048F /* Protocols */,
 				8155EEA5254E09AE0044048F /* Model */,
 				8155EE94254E08590044048F /* Repository */,
 				8155EE42254DF6880044048F /* TabBarController.swift */,
@@ -228,6 +254,7 @@
 				8155EE60254DF8EE0044048F /* TabBarCoordinator.swift */,
 				8155EE65254DF9790044048F /* CartelsCoordinator.swift */,
 				8155EE6B254DF98A0044048F /* CharactersCoordinator.swift */,
+				817297AD267A987300C16339 /* FavoritesCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -235,52 +262,28 @@
 		8155EE73254DFA0E0044048F /* Cartels */ = {
 			isa = PBXGroup;
 			children = (
-				8155EE9A254E09240044048F /* Model */,
+				8155EE89254E076E0044048F /* CartelsViewModel.swift */,
+				8155EE78254DFB3E0044048F /* CartelsTableViewController.swift */,
+				8155EEA0254E09570044048F /* Cartels.swift */,
 				8155EE8E254E08330044048F /* Repository */,
-				8155EE77254DFA3F0044048F /* ViewModel */,
-				8155EE76254DFA350044048F /* View */,
-				8155EE75254DFA2E0044048F /* Controller */,
 			);
 			path = Cartels;
 			sourceTree = "<group>";
 		};
-		8155EE74254DFA1A0044048F /* Characters */ = {
+		8155EE74254DFA1A0044048F /* CharactersList */ = {
 			isa = PBXGroup;
 			children = (
-				8155EEEE2551FE750044048F /* Repository */,
-				8155EEE82551FE0E0044048F /* ViewModel */,
-				8155EEDF255071AF0044048F /* Controller */,
+				8155EEE92551FE250044048F /* ListCharactersViewModel.swift */,
+				8155EEE0255071C80044048F /* CharacterViewController.swift */,
+				8155EEEF2551FE830044048F /* CharactersRepository.swift */,
 			);
-			path = Characters;
-			sourceTree = "<group>";
-		};
-		8155EE75254DFA2E0044048F /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				8155EE78254DFB3E0044048F /* CartelsTableViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		8155EE76254DFA350044048F /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		8155EE77254DFA3F0044048F /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				8155EE89254E076E0044048F /* CartelsViewModel.swift */,
-			);
-			path = ViewModel;
+			path = CharactersList;
 			sourceTree = "<group>";
 		};
 		8155EE8E254E08330044048F /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				8155EEDA2550699B0044048F /* narcos_sinaloa.json */,
+				81D1BF33267237CC0079462A /* narcos_sinaloa.json */,
 				8155EE8F254E08430044048F /* CartelsRepository.swift */,
 			);
 			path = Repository;
@@ -292,14 +295,6 @@
 				8155EE95254E08E30044048F /* Repository.swift */,
 			);
 			path = Repository;
-			sourceTree = "<group>";
-		};
-		8155EE9A254E09240044048F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8155EEA0254E09570044048F /* Cartels.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		8155EEA5254E09AE0044048F /* Model */ = {
@@ -314,12 +309,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8155EEC8254E0DC60044048F /* ViewModel */ = {
+		8155EEC8254E0DC60044048F /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
 				8155EEC9254E0DD70044048F /* ViewModel.swift */,
+				817297A92676845600C16339 /* ViewCode.swift */,
 			);
-			path = ViewModel;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		8155EED1254E17670044048F /* Helpers */ = {
@@ -330,28 +326,57 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		8155EEDF255071AF0044048F /* Controller */ = {
+		817297A226756B2000C16339 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				8155EEE0255071C80044048F /* CharacterViewController.swift */,
+				81D1BF842672B0530079462A /* UImage+Assets.swift */,
+				8155EE13254DF4CD0044048F /* Assets.xcassets */,
 			);
-			path = Controller;
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		8155EEE82551FE0E0044048F /* ViewModel */ = {
+		817297A326756B9600C16339 /* ViewComponents */ = {
 			isa = PBXGroup;
 			children = (
-				8155EEE92551FE250044048F /* ListCharactersViewModel.swift */,
+				817297A426756BA300C16339 /* Cells */,
 			);
-			path = ViewModel;
+			path = ViewComponents;
 			sourceTree = "<group>";
 		};
-		8155EEEE2551FE750044048F /* Repository */ = {
+		817297A426756BA300C16339 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				8155EEEF2551FE830044048F /* CharactersRepository.swift */,
+				81D1BF38267239670079462A /* CharactersTableViewCell.swift */,
+				817297A526756BC300C16339 /* CartelsTableViewCell.swift */,
 			);
-			path = Repository;
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		81D1BF3A26723B220079462A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				81D1BF3B26723B430079462A /* UImageView+Downloaded.swift */,
+				817297AB267694BD00C16339 /* UIView+Size.swift */,
+				817297B3267AA44600C16339 /* UIAolication+statusBar.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		81D1BF862672B5B80079462A /* CharacterDetails */ = {
+			isa = PBXGroup;
+			children = (
+				81D1BF882672B6190079462A /* CharacterDetailsViewController.swift */,
+				817297A72676826500C16339 /* CharacterDetailsView.swift */,
+			);
+			path = CharacterDetails;
+			sourceTree = "<group>";
+		};
+		81D1BF872672B5C70079462A /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				817297AF267A98CC00C16339 /* FavoritesViewController.swift */,
+			);
+			path = Favorites;
 			sourceTree = "<group>";
 		};
 		F271DF28071A6570FB2987E6 /* Frameworks */ = {
@@ -470,7 +495,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8155EEDB2550699B0044048F /* narcos_sinaloa.json in Resources */,
+				81D1BF34267237CC0079462A /* narcos_sinaloa.json in Resources */,
 				8155EE17254DF4CD0044048F /* LaunchScreen.storyboard in Resources */,
 				8155EE14254DF4CD0044048F /* Assets.xcassets in Resources */,
 			);
@@ -569,10 +594,17 @@
 				8155EEEA2551FE250044048F /* ListCharactersViewModel.swift in Sources */,
 				8155EEA1254E09570044048F /* Cartels.swift in Sources */,
 				8155EEB9254E0A1F0044048F /* Career.swift in Sources */,
+				817297AC267694BD00C16339 /* UIView+Size.swift in Sources */,
+				81D1BF39267239670079462A /* CharactersTableViewCell.swift in Sources */,
 				8155EE54254DF8200044048F /* AppCoordinator.swift in Sources */,
 				8155EE0B254DF4C30044048F /* AppDelegate.swift in Sources */,
 				8155EE6C254DF98A0044048F /* CharactersCoordinator.swift in Sources */,
+				81D1BF892672B6190079462A /* CharacterDetailsViewController.swift in Sources */,
+				81D1BF3C26723B430079462A /* UImageView+Downloaded.swift in Sources */,
+				81D1BF852672B0530079462A /* UImage+Assets.swift in Sources */,
 				8155EEE1255071C80044048F /* CharacterViewController.swift in Sources */,
+				817297AE267A987300C16339 /* FavoritesCoordinator.swift in Sources */,
+				817297AA2676845600C16339 /* ViewCode.swift in Sources */,
 				8155EE61254DF8EE0044048F /* TabBarCoordinator.swift in Sources */,
 				8155EE66254DF9790044048F /* CartelsCoordinator.swift in Sources */,
 				8155EEF02551FE830044048F /* CharactersRepository.swift in Sources */,
@@ -583,8 +615,12 @@
 				8155EE9C254E09440044048F /* Cartel.swift in Sources */,
 				8155EECA254E0DD70044048F /* ViewModel.swift in Sources */,
 				8155EE0D254DF4C30044048F /* SceneDelegate.swift in Sources */,
+				817297A82676826600C16339 /* CharacterDetailsView.swift in Sources */,
 				8155EE79254DFB3E0044048F /* CartelsTableViewController.swift in Sources */,
+				817297A626756BC300C16339 /* CartelsTableViewCell.swift in Sources */,
 				8155EEA7254E09F00044048F /* Character.swift in Sources */,
+				817297B4267AA44600C16339 /* UIAolication+statusBar.swift in Sources */,
+				817297B0267A98CC00C16339 /* FavoritesViewController.swift in Sources */,
 				8155EEB4254E0A110044048F /* Appearences.swift in Sources */,
 				8155EE90254E08430044048F /* CartelsRepository.swift in Sources */,
 				8155EE96254E08E30044048F /* Repository.swift in Sources */,
